@@ -3,10 +3,10 @@ package com.example.rawggames
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import com.example.rawggames.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity(), View.OnClickListener {
+
+class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
 
@@ -15,11 +15,17 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnGames.setOnClickListener(this)
+        binding.btnGames.setOnClickListener {
+            val intent = Intent(this@MainActivity, GamesActivity::class.java)
+            startActivity(intent)
+        }
+        binding.btnPlatforms.setOnClickListener {
+            val act = Intent(this@MainActivity, PlatFormsActivity::class.java)
+            startActivity(act)
+        }
     }
 
-    override fun onClick(v: View?) {
-        val intent = Intent(this@MainActivity, GamesActivity::class.java)
-        startActivity(intent)
-    }
+
+
+
 }

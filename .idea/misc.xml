@@ -3,6 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/dquin/AndroidStudioProjects/rawgGames/app/src/main/res/layout/activity_game_detail.xml" value="0.16032608695652173" />
+        <entry key="..\:/Users/dquin/AndroidStudioProjects/rawgGames/app/src/main/res/layout/activity_games.xml" value="0.165" />
+        <entry key="..\:/Users/dquin/AndroidStudioProjects/rawgGames/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/dquin/AndroidStudioProjects/rawgGames/app/src/main/res/layout/activity_main2.xml" value="0.13095238095238096" />
+        <entry key="..\:/Users/dquin/AndroidStudioProjects/rawgGames/app/src/main/res/layout/activity_plat_forms.xml" value="0.25" />
+        <entry key="..\:/Users/dquin/AndroidStudioProjects/rawgGames/app/src/main/res/layout/activity_plat_forms_adapter.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/dquin/AndroidStudioProjects/rawgGames/app/src/main/res/layout/activity_plat_forms_detail.xml" value="0.13095238095238096" />
+        <entry key="..\:/Users/dquin/AndroidStudioProjects/rawgGames/app/src/main/res/layout/activity_plat_forms_view_holder.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/dquin/AndroidStudioProjects/rawgGames/app/src/main/res/layout/item_game.xml" value="0.16032608695652173" />
+        <entry key="..\:/Users/dquin/AndroidStudioProjects/rawgGames/app/src/main/res/layout/item_platforms.xml" value="0.23233695652173914" />
+        <entry key="..\:/Users/dquin/AndroidStudioProjects/rawgGames/app/src/main/res/layout/platforms.xml" value="0.13044579533941236" />
         <entry key="..\:/Users/juanp/AndroidStudioProjects/rawgGames/app/src/main/res/layout/activity_game_detail.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/juanp/AndroidStudioProjects/rawgGames/app/src/main/res/layout/activity_games.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/juanp/AndroidStudioProjects/rawgGames/app/src/main/res/layout/activity_main.xml" value="0.33" />

@@ -46,7 +46,7 @@ class GamesActivity : AppCompatActivity(), SearchView.OnQueryTextListener {
 
     private fun onItemSelected(id: Int) {
         val intent = Intent(this, GameDetailActivity::class.java)
-        intent.putExtra("idGame", id)
+        intent.putExtra("idGame",id)
         startActivity(intent)
     }
 

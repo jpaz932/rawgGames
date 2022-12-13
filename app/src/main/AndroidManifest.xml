@@ -16,9 +16,21 @@
         android:theme="@style/Theme.RawgGames"
         tools:targetApi="31">
         <activity
+            android:name=".PlatFormsViewHolder"
+            android:exported="false" />
+        <activity
+            android:name=".PlatFormsAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".PlatFormsDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlatFormsActivity"
+            android:exported="false" />
+        <activity
             android:name=".GameDetailActivity"
             android:exported="false"
-            android:parentActivityName=".GamesActivity"/>
+            android:parentActivityName=".GamesActivity" />
         <activity
             android:name=".GamesActivity"
             android:exported="true"
